@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. Purple-->
+    <style name="AppTheme.Purple" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/material_purple700</item>
+        <item name="colorPrimaryDark">@color/material_purple900</item>
+        <item name="colorAccent">@color/material_purple400</item>
+        <item name="colorControlHighlight">?attr/colorAccent</item>
+    </style>
+</resources>

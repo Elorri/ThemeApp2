@@ -10,6 +10,7 @@
 
         <!--Custom App attributes-->
         <item name="customViewStyle">@style/Widget.Material.CustomView</item>
+        <item name="customViewBStyle">@style/Widget.Material.CustomView</item>
 
     </style>
 

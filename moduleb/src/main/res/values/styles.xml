@@ -1,0 +1,6 @@
+<resources>
+
+    <style name="CustomViewB">
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
+</resources>

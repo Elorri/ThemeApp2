@@ -1,6 +1,169 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/material_bluegrey400">
+
+    <View
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:padding="16dp" />
+
+    <!--<android.support.v7.widget.SearchView-->
+    <!--android:id="@+id/search_view"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--style="@style/RtlOverlay.Widget.AppCompat.SearchView.MagIcon" />ljlkjlk Material theme here-->
+
+    <Button
+        style="@style/android:Widget.Material.Light"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="button"/>
+
+    <Button
+        style="@style/android:Widget.Material.Light.Button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="button"/>
+
+    <Button
+        style="@style/android:Widget.Material.Light.Button.Small"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="button"/>
+    <Button
+        style="@style/android:Widget.Material.Light.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="button"/>
+
+    <Button
+        style="@style/android:Widget.Material.Light.Button.Borderless.Colored"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="button"/>
+
+    <Button
+        style="@style/android:Widget.Material.Light.Button.ButtonBar.AlertDialog"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="button"/>
+
+    <Button
+        style="@style/android:Widget.Material.Light.Button.Borderless.Small"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="button"/>
+
+    <Button
+        style="@style/android:Widget.Material.Light.Button.Inset"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="button"/>
+
+    <com.example.android.themeapp2.CustomViewA
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="custom view"/>
+
+    <Chronometer
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:padding="16dp" />
+
+    <CheckedTextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:padding="16dp"
+        android:text="tioio" />
+
+    <EditText
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:padding="16dp"
+        android:text="tioio" />
+
+    <ExpandableListView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:padding="16dp"
+        android:text="tioio" />
+
+    <ImageSwitcher
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:padding="16dp" />
+
+    <ImageView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:padding="16dp" />
+
+    <ToggleButton
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:padding="16dp" />
+
+    <ProgressBar
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:padding="16dp" />
+
+    <SeekBar
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:padding="16dp" />
+
+    <StackView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:padding="16dp" />
+
+    <RatingBar
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:padding="16dp" />
+
+    <RadioGroup
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:padding="16dp" />
+
+    <RadioButton
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:padding="16dp" />
+
+    <TextSwitcher
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:padding="16dp" />
+
+    <TextView
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:padding="16dp" />
+
+    <Switch
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:padding="16dp" />
+
+    <android.support.v7.widget.Toolbar
+        android:layout_width="100dp"
+        android:layout_height="50dp"
+        android:padding="16dp" />
 
 </LinearLayout>

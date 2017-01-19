@@ -7,6 +7,7 @@ import android.support.v4.app.Fragment;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
+import android.widget.Toast;
 
 public class MainFragment extends Fragment {
 
@@ -23,28 +24,26 @@ public class MainFragment extends Fragment {
     @Override
     public View onCreateView(final LayoutInflater inflater, @Nullable final ViewGroup container, @Nullable final Bundle savedInstanceState) {
         mContentView = inflater.inflate(R.layout.fragment_main, container, false);
+
+        mContentView.findViewById(R.id.selectableItemBackGround).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(mContext, "hey", Toast.LENGTH_SHORT).show();
+            }
+        });
         mContentView.findViewById(R.id.main_theme).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
                 mContext.getTheme().applyStyle(R.style.AppTheme, true);
                 reload();
-//                ViewGroup parent = (ViewGroup) mContentView.getParent();
-//                Log.e("App", Thread.currentThread().getStackTrace()[2]+"contentView "+parent);
-//                parent.removeAllViews();
-//                ContextThemeWrapper contextThemeWrapper=new ContextThemeWrapper(mContext, R.style.AppTheme);
-//                contextThemeWrapper.getTheme().applyStyle(R.style.AppTheme, true);
-//                contextThemeWrapper.setTheme(R.style.AppTheme);
-//                LayoutInflater mainInflater = inflater.cloneInContext(contextThemeWrapper);
-//                parent.addView(mainInflater.inflate(R.layout.fragment_main, container));
             }
         });
         mContentView.findViewById(R.id.pink_theme).setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                mContentView.invalidate();
                 mContext.getTheme().applyStyle(R.style.AppTheme_Pink, true);
                 reload();
-           }
+            }
         });
         mContentView.findViewById(R.id.yellow_theme).setOnClickListener(new View.OnClickListener() {
             @Override
@@ -53,6 +52,19 @@ public class MainFragment extends Fragment {
                 reload();
             }
         });
+        mContentView.findViewById(R.id.ripple_color).setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Toast.makeText(mContext, "Does not work", Toast.LENGTH_SHORT).show();
+//                Drawable drawable=v.getBackground();
+//                Resources.Theme currentTheme=mContext.getTheme();
+//                currentTheme.applyStyle(R.style.AppTheme_Purple, true);
+//                drawable.applyTheme(currentTheme);
+//                v.setBackground(drawable);
+            }
+        });
+
+        ((ViewGroup) mContentView.findViewById(R.id.linear_layout)).addView(new CustomViewA(mContext, null, 0, R.style.AppTheme_Purple));
         return mContentView;
     }
 

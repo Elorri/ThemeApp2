@@ -4,6 +4,7 @@
     android:layout_width="match_parent"
     android:layout_height="wrap_content">
 <LinearLayout
+    android:id="@+id/linear_layout"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:orientation="vertical">
@@ -26,6 +27,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="YellowTheme"/>
+        <Button
+            android:id="@+id/ripple_color"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="change textview ripple color without changing theme"/>
 
     </LinearLayout>
 
@@ -34,7 +40,15 @@
         android:layout_height="50dp"
         android:padding="16dp" />
 
-    <!--<android.support.v7.widget.SearchView-->
+    <TextView
+        android:id="@+id/selectableItemBackGround"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="TextView with selectable item background"/>
+
+     <!--<android.support.v7.widget.SearchView-->
         <!--android:id="@+id/search_view"-->
         <!--android:layout_width="match_parent"-->
         <!--android:layout_height="wrap_content"-->
@@ -95,7 +109,7 @@
         android:padding="16dp"
         android:text="button"/>
 
-    <com.example.android.themeapp2.CustomView
+    <com.example.android.themeapp2.CustomViewA
         android:layout_width="100dp"
         android:layout_height="wrap_content"
         android:padding="16dp"
@@ -116,7 +130,18 @@
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:padding="16dp"
-        android:text="tioio" />
+        android:text="EditText" />
+
+    <!--<android.support.design.widget.TextInputLayout-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<android.support.design.widget.TextInputEditText-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:hint="TextInputEditText"/>-->
+
+    <!--</android.support.design.widget.TextInputLayout>-->
 
     <ExpandableListView
         android:layout_width="100dp"

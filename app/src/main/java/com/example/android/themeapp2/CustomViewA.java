@@ -5,21 +5,21 @@ import android.util.AttributeSet;
 import android.widget.TextView;
 
 
-public class CustomView extends TextView {
+public class CustomViewA extends TextView {
 
-    public CustomView(Context context) {
+    public CustomViewA(Context context) {
         super(context);
     }
 
-    public CustomView(Context context, AttributeSet attrs) {
+    public CustomViewA(Context context, AttributeSet attrs) {
         super(context, attrs, R.attr.customViewStyle);
     }
 
-    public CustomView(Context context, AttributeSet attrs, int defStyleAttr) {
+    public CustomViewA(Context context, AttributeSet attrs, int defStyleAttr) {
         super(context, attrs, defStyleAttr);
     }
 
-    public CustomView(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
+    public CustomViewA(Context context, AttributeSet attrs, int defStyleAttr, int defStyleRes) {
         super(context, attrs, defStyleAttr, defStyleRes);
     }
 }

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Base application theme. Orange-->
+    <style name="AppTheme.Orange" parent="Theme.AppCompat.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/material_deeporange700</item>
+        <item name="colorPrimaryDark">@color/material_deeporange900</item>
+        <item name="colorAccent">@color/material_deeporange400</item>
+    </style>
+</resources>
