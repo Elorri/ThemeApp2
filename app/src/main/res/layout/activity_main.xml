@@ -11,12 +11,10 @@
         android:orientation="vertical"
         tools:context="com.example.android.themeapp2.MainActivity">
 
-        <fragment
-            android:id="@+id/main_fragment"
-            android:name="com.example.android.themeapp2.MainFragment"
+        <FrameLayout
+            android:id="@+id/main_fragment_container"
             android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Hello World!" />
+            android:layout_height="wrap_content"/>
 
         <LinearLayout
             android:layout_width="wrap_content"

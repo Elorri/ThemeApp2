@@ -30,45 +30,45 @@
     </LinearLayout>
 
     <View
-        android:layout_width="50dp"
+        android:layout_width="100dp"
         android:layout_height="50dp"
         android:padding="16dp" />
 
     <Button
-        android:layout_width="50dp"
-        android:layout_height="50dp"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
         android:padding="16dp" />
 
     <Chronometer
-        android:layout_width="50dp"
+        android:layout_width="100dp"
         android:layout_height="50dp"
         android:padding="16dp" />
 
     <CheckedTextView
-        android:layout_width="50dp"
+        android:layout_width="100dp"
         android:layout_height="50dp"
         android:padding="16dp"
         android:text="tioio" />
 
     <EditText
-        android:layout_width="50dp"
+        android:layout_width="100dp"
         android:layout_height="50dp"
         android:padding="16dp"
         android:text="tioio" />
 
     <ExpandableListView
-        android:layout_width="50dp"
+        android:layout_width="100dp"
         android:layout_height="50dp"
         android:padding="16dp"
         android:text="tioio" />
 
     <ImageSwitcher
-        android:layout_width="50dp"
+        android:layout_width="100dp"
         android:layout_height="50dp"
         android:padding="16dp" />
 
     <ImageView
-        android:layout_width="50dp"
+        android:layout_width="100dp"
         android:layout_height="50dp"
         android:padding="16dp" />
 
