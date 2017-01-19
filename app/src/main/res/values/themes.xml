@@ -2,11 +2,15 @@
 <resources>
 
     <!-- Base application theme. Gray-blue-->
-    <style name="AppTheme" parent="Theme.AppCompat.Light.DarkActionBar">
+    <style name="AppTheme" parent="android:Theme.Material.Light">
         <!-- Customize your theme here. -->
         <item name="colorPrimary">@color/material_green700</item>
         <item name="colorPrimaryDark">@color/material_green900</item>
         <item name="colorAccent">@color/material_green400</item>
+
+        <!--Custom App attributes-->
+        <item name="customViewStyle">@style/Widget.Material.CustomView</item>
+
     </style>
 
 </resources>

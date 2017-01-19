@@ -34,10 +34,72 @@
         android:layout_height="50dp"
         android:padding="16dp" />
 
+    <!--<android.support.v7.widget.SearchView-->
+        <!--android:id="@+id/search_view"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--style="@style/RtlOverlay.Widget.AppCompat.SearchView.MagIcon" />ljlkjlk Material theme here-->
+
     <Button
+        style="@style/android:Widget.Material.Light"
         android:layout_width="100dp"
         android:layout_height="wrap_content"
-        android:padding="16dp" />
+        android:padding="16dp"
+        android:text="button"/>
+
+    <Button
+        style="@style/android:Widget.Material.Light.Button"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="button"/>
+
+    <Button
+        style="@style/android:Widget.Material.Light.Button.Small"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="button"/>
+    <Button
+        style="@style/android:Widget.Material.Light.Button.Borderless"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="button"/>
+
+    <Button
+        style="@style/android:Widget.Material.Light.Button.Borderless.Colored"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="button"/>
+
+    <Button
+        style="@style/android:Widget.Material.Light.Button.ButtonBar.AlertDialog"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="button"/>
+
+    <Button
+        style="@style/android:Widget.Material.Light.Button.Borderless.Small"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="button"/>
+
+    <Button
+        style="@style/android:Widget.Material.Light.Button.Inset"
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="button"/>
+
+    <com.example.android.themeapp2.CustomView
+        android:layout_width="100dp"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:text="custom view"/>
 
     <Chronometer
         android:layout_width="100dp"
@@ -113,11 +175,6 @@
         android:padding="16dp" />
 
     <TextView
-        android:layout_width="100dp"
-        android:layout_height="50dp"
-        android:padding="16dp" />
-
-    <android.support.v7.widget.SearchView
         android:layout_width="100dp"
         android:layout_height="50dp"
         android:padding="16dp" />

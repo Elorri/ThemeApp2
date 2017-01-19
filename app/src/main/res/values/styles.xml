@@ -1,4 +1,9 @@
 <resources>
 
+    <style name="Widget.Material" parent="android:Widget.Material">
+    </style>
 
+    <style name="Widget.Material.CustomView">
+        <item name="android:background">?attr/colorPrimary</item>
+    </style>
 </resources>
