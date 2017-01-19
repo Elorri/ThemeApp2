@@ -12,17 +12,20 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content">
         <Button
+            android:id="@+id/main_theme"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:text="MainTheme"/>
         <Button
+            android:id="@+id/pink_theme"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="BlueTheme"/>
+            android:text="PinkTheme"/>
         <Button
+            android:id="@+id/yellow_theme"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="RedTheme"/>
+            android:text="YellowTheme"/>
 
     </LinearLayout>
 
