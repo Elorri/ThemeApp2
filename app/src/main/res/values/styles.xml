@@ -6,4 +6,8 @@
     <style name="Widget.Material.CustomView">
         <item name="android:background">?attr/colorPrimary</item>
     </style>
+
+    <style name="SelectableItemBackGroundStyle">
+        <item name="android:background">@drawable/selectable_item_background_color</item>
+    </style>
 </resources>

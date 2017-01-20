@@ -46,7 +46,36 @@
         android:layout_height="wrap_content"
         android:padding="16dp"
         android:background="?android:attr/selectableItemBackground"
-        android:text="TextView with selectable item background"/>
+        android:text="TextView with selectable item background default"/>
+
+    <TextView
+        android:id="@+id/selectableItemBackGroundCustom"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@drawable/selectable_item_background_color"
+        android:text="TextView with selectable item background homemade"/>
+
+    <TextView
+        android:id="@+id/selectableItemBackGroundDefaultInflated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:text="TextView with selectable item background default inflated and set up on the view"/>
+
+    <TextView
+        android:id="@+id/selectableItemBackGroundHomemadeInflated"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:padding="16dp"
+        android:background="@drawable/selectable_item_background_color"
+        android:text="TextView with selectable item background homemade inflated and set up on the view"/>
+
+    <FrameLayout
+        android:id="@+id/selectableItemBackGroundContainer"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
 
      <!--<android.support.v7.widget.SearchView-->
         <!--android:id="@+id/search_view"-->
